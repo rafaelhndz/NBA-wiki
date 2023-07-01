@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/_contato.css">
+    <link rel="stylesheet" href="./css/layout_mobile.css">
+    <script src="https://kit.fontawesome.com/5c1b751d77.js" crossorigin="anonymous"></script>
+    <title>..:: TESTE NBA ::..</title>
+</head>
+<body>
+    <!-- Aula 15/04/2023 -->
+   <!-- Início Header -->
+   <section>
+    <div class="conteudo-social">
+      <a href="#" class="fa fa-youtube" aria-hidden="true" target="_blank"></a>
+      <a href="#" class="fa fa-facebook" aria-hidden="true" target="_blank"></a>
+      <a href="#" class="fa fa-twitter" aria-hidden="true" target="_blank"></a>
+      <a href="#" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
+      <a href="#" class="fa fa-spotify" aria-hidden="true" target="_blank"></a>
+    </div>
+
+</div>
+  <header>
+    <div class="container-grid conteudo-header">
+      <img class="logo" src="./img/logo nba 2.png" alt="Logo Senai" />
+      <nav id="menu-header" class="menu-header">
+        <a href="#" title="Início da página" class="fa-solid fa-house"></a>
+        <a href="#">Sobre</a>
+        <a href="#">Endereço</a>
+        <a class="botao" href="mailto:example@email.com">Contate-nos</a>
+      </nav>
+      <a
+        class="menu-barras"
+        href="javascript: void(0)"
+        onclick="mostrarMenu()"
+      >
+        <i id="icone-menu" class="fas fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <!-- Fim Header -->
+    <!-- Inicio Form Contato -->
+    <div class="contato">
+        <div class="container">
+            <div class="row">                
+                <!-- Inicio Formulario -->
+                <div class="col-md-6">
+                    <!-- Inicio da tag section com texto -->
+                        <section class="col-12">
+                            <h2>Entre em contato conosco!</h2>
+                            <p>Para duvidas, elogios ou reclamações insira suas informaçoes abaixo.</p>
+                        </section>
+                    <!-- Fim da tag section com texto -->
+                    <div class="form_main">
+                        <form class="form-horizontal" method="post" action="">
+                            <fieldset>
+                                <h4 class="text-left header">preencha suas informaçoes: <span></span></h4>
+                                <!-- Inicio campo 1 do form -->
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="fname" name="name" type="text" placeholder="Insira seu primeiro nome" class="form-control" required>
+                                    </div>
+                                </div>
+                                <!-- Fim Campo 1 do form -->
+                                <!-- Inicio campo 2 do form -->
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="lname" name="name" type="text" placeholder="Insira seu último nome" class="form-control" required>
+                                    </div>
+                                </div>
+                                <!-- Fim Campo 2 do form -->
+                                <!-- Inicio campo 3 do form -->
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="email" name="email" type="email" placeholder="Insira seu email nome" class="form-control" required>
+                                    </div>
+                                </div>
+                                <!-- Fim Campo 3 do form -->
+                                <!-- Inicio campo 4 do form -->
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="phone" name="phone" type="text" placeholder="Insira seu telefone " class="form-control" required>
+                                    </div>
+                                </div>
+                                <!-- Fim Campo 4 do form -->
+                                <!-- Inicio campo 5 do form -->
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <textarea name="message" id="message" class="form-control-msg" rows="7" type="text" placeholder="Insira sua mensagem, que retornaremos o mais breve possivel."></textarea>
+                                    </div>
+                                </div>
+                                <!-- Fim Campo 5 do form -->
+                                <!-- Inicio button submit -->
+                                <div class=" form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="formbutton">Enviar</button>
+                                    </div>
+                                </div>
+                                <!-- Fim button submit -->
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!-- Fim Formulario -->
+                <!-- Inicio maps -->
+                <div class="col-md-6">
+                    <div class-="row">
+                        <div class="panel panel-default">
+                            <section id="txt-local" class="text-center header">
+                                <h2>#Onde estamos localizados</h2>
+                                <h4>Endereço:</h4>
+                                <p>Avenida ABC, 123 <br />
+                                    Av. Roque Petroni Júnior, 1089 - Piso superior loja 120A/120B - Jardim das Acacias, São Paulo - SP, CEP:04707-900
+                                </p>
+                            </section>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.46084323819!2d-46.701090123703!3d-23.623661663885912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce510ff167976f%3A0x5c289dd02bc2c29c!2sNBA%20Store%20Morumbi%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1688221685231!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div> 
+
+                    </div>
+
+
+                </div>
+                <!-- Fim maps -->
+            </div>
+
+        </div>
+            
+    </div>
+    <!-- Fim Form Contato-->
+    <!-- Inicio whatsappp --> 
+    <div class="whatsapp">
+        <div class="container-grid logo-whats">
+            <a target="_blank" href=":https//api.whatsapp.com/sendphone=11916882855text=%20estava%20no%20site%20futverso%20e%20gostaria%20de%20mais%20informa%C3%A7oes"><img src="img/whats.png" class="quica" alt="Contato Whatsapp"</a>
+        </div>
+    </div>
+
+
+    <!-- fim Whatsapp -->
+    <!-- Início footer -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+                <!-- Início Logo -->
+                <div id="logo-rodape" class="col-md-4">
+                    <figure>
+                        <img src="./img/logo.png" alt="logo_rodape">
+                    </figure>
+                </div>
+                <!-- Fim Logo -->
+                <!-- Início Texto -->
+                <div class="col-md-4">
+                    <div class="info-contato">
+                        <p>Email:</p>
+                        <p>example@corp.net</p><br>
+                        <p>Endereço:</p>
+                        <p>Avenida ABC, 123</p><br>
+                        <p>Telefone:</p>
+                        <p>+55 (15) 5555-1234</p>
+                    </div>
+                </div>
+                <!-- Fim Texto -->
+                <!-- Início das Mídias Sociais -->
+                <!-- Alt + Shift + Seta para baixo > Duplica Linha -->
+                <!-- Ctrl + Space > Mostra o caminho do objeto dentro de SRC -->
+                <div class="col-md-4">
+                    <figure class="redes-sociais">
+                        <a href="#"><img src="./img/face.png" alt="Facebook"></a>
+                        <a href="#"><img src="./img/insta.png" alt="Instragam"></a>
+                        <a href="#"><img src="./img/youtube.png" alt="YouTube"></a>
+                        <a href="#"><img src="./img/linkedin.png" alt="Linkedin"></a>
+                    </figure>
+                    <br>
+                    <a href="./index.html">Home</a>
+                    <a href="./produtos.html">Produtos</a>
+                    <a href="./streaming.html">#Streaming</a>
+                    <a href="./contato.html">Contato</a>
+                </div>
+                <!-- Fim Mídias Sociais -->
+                <!-- Início Direitos Autorais -->
+                <div class="col-12">
+                    <p class="direitos">Direitos Autorais</p>
+                </div>
+                <!-- Fim Direitos Autorais -->
+            </div>
+        </div>
+    </footer>
+    <!-- Fim Rodape -->
+
+</body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="./js/script_menu.js"></script>
+
+</html>
