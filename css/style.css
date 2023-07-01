@@ -34,7 +34,7 @@ body {
 }
 header {
   z-index: 1;
-  background-color: #F9003D;
+  background-color: #0056A3;
   height: 80px;
   position: fixed;
   width: 100vw;
@@ -81,7 +81,7 @@ header {
   text-align: center;
   line-height: 47px;
   font-size:  1.5em !important;
-  border: solid 1px #080324;
+  border: solid 1px #ffffff;
   border-radius: 30px 10px;
 }
 .botao:hover {
@@ -96,7 +96,7 @@ header {
   display: none;
 }
 .banner {
-  background-image: url(../img/imagem-fundo-banner.jpg);
+  background-image: url(../img/background_nba.png);
   height: 768px;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,7 +123,7 @@ h1 {
 }
 .titulo-senai {
   font-family: 'Courier New', Courier, monospace;
-  color: #F9003D;
+  color: #0056A3;
   font-size: 50px;
   text-transform: uppercase;
   font-weight: 600;
@@ -132,7 +132,7 @@ h1 {
   width: 80px;
 }
 .sobre-projetos {
-  background-color: #080324;
+  background-color:#0056A3;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -152,6 +152,7 @@ h1 {
 .texto-sobre {
   width: 50%;
 }
+
 .texto-participantes {
   color: white;
   font-family: 'Courier New', Courier, monospace;
@@ -166,11 +167,11 @@ h1 {
 }
 .texto-sobre p {
   color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
+  font-size: 30px;
 }
 .info {
-  background-image: url(../img/imagem-fundo-info.jpg);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -192,17 +193,17 @@ h1 {
   font-size: 20px;
 }
 .card-info p {
- color:#A259F7 ;
+ color:#000000 ;
  font-size: 22px;
  font-weight: 600;
- border: solid 2px #A259F7;
+ border: solid 2px #0056A3;
  width: 250px;
  padding: 30px 0;
  text-align: center;
 }
 .endereco {
   padding: 40px 0;
-  background-image: url(../img/imagem-fundo-ranking.jpg);
+  background-color: #8d8d8d;
 }
 .conteudo-endereco {
   margin: 0 auto;
@@ -215,10 +216,10 @@ h1 {
   font-weight: 500;
 }
 .texto-endereco {
-  color: #A259F7;
+  color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #010010;
-  border: solid 2px #A259F7;
+  background-color: #757575;
+  border: solid 2px #0056A3;
   padding: 55px 55px;
 }
 .texto-endereco p {
@@ -335,4 +336,85 @@ footer span {
   right: 0;
 
 }
+/* CSS destaque */
+.destaque h2 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.destaque p {
+  width: 77%;
+  text-align: center;
+  font-size: 14px;
+  margin: 30px auto;
+}
+.destaque figcaption {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+.destaque a {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: cyan;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.rodape .container #logo-rodape img {
+  height: 50%;
+  width: 50%;
+  padding-left: 10px;
+  transition: transform .3s;
+  display: block;
+  border-radius: 90%;
+}
+.rodape {
+  padding: 50px 50px 0;
+}
+.rodape .container #logo-rodape img {
+  height: 50%;
+  width: 50%;
+  padding-left: 10px;
+  transition: transform .3s;
+  display: block;
+  border-radius: 90%;
+}
+.rodape .container #logo-rodape img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgb(128, 128, 128)
+
+}
+.rodape .info-contato p {
+  margin: 0px;
+}
+.rodape a {
+  text-decoration: none;  
+  color: black;
+  font-size: 13px;
+}
+.rodape a:hover {
+  font-weight: bold;
+}
+.rodape .redes-sociais img {
+  width: 45px;
+  height: 45px;
+}
+.rodape p.direitos {
+  text-align: center;
+  margin-top: 40px;
+}
+.rodape .redes-sociais img {
+  height: 10%;
+  width: 10%;
+  padding-left: 0px;
+  transition: transform .3s;
+  border-radius: 10%;
+  margin-left: 0.5rem
+}
+/*fim destaque css*/
 
