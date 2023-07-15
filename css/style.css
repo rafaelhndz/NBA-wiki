@@ -147,7 +147,7 @@ h1 {
   justify-content: space-between;
 }
 .imagem-sobre {
-  width: 40%;
+  width: 20%;
 }
 .texto-sobre {
   width: 50%;
@@ -164,11 +164,13 @@ h1 {
   color: #FFAF00;
   font-size: 45px;
   font-weight: 500;
+  left: 40px;
 }
 .texto-sobre p {
   color: #ffffff;
   text-align: justify;
   font-size: 30px;
+  padding-right: 200px;
 }
 .info {
   background-color: #ffffff;
@@ -334,9 +336,7 @@ footer span {
   top: 0;
   left: 0;
   right: 0;
-
 }
-/* CSS destaque */
 .destaque h2 {
   margin-top: 15px;
   text-align: center;
@@ -365,56 +365,4 @@ footer span {
   font-weight: bold;
   margin: 30px 0;
 }
-.rodape .container #logo-rodape img {
-  height: 50%;
-  width: 50%;
-  padding-left: 10px;
-  transition: transform .3s;
-  display: block;
-  border-radius: 90%;
-}
-.rodape {
-  padding: 50px 50px 0;
-}
-.rodape .container #logo-rodape img {
-  height: 50%;
-  width: 50%;
-  padding-left: 10px;
-  transition: transform .3s;
-  display: block;
-  border-radius: 90%;
-}
-.rodape .container #logo-rodape img:hover {
-  transform: scale(1.5);
-  box-shadow: 0 0 10px rgb(128, 128, 128)
-
-}
-.rodape .info-contato p {
-  margin: 0px;
-}
-.rodape a {
-  text-decoration: none;  
-  color: black;
-  font-size: 13px;
-}
-.rodape a:hover {
-  font-weight: bold;
-}
-.rodape .redes-sociais img {
-  width: 45px;
-  height: 45px;
-}
-.rodape p.direitos {
-  text-align: center;
-  margin-top: 40px;
-}
-.rodape .redes-sociais img {
-  height: 10%;
-  width: 10%;
-  padding-left: 0px;
-  transition: transform .3s;
-  border-radius: 10%;
-  margin-left: 0.5rem
-}
-/*fim destaque css*/
 
