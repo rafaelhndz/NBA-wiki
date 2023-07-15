@@ -6,7 +6,7 @@ body, ul {
     padding: 0px;
 }
 #header #menu a {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Russo One';
     text-transform: uppercase;
@@ -184,21 +184,21 @@ body, ul {
 /* fim css banner */
 /* css destaque */
 .destaque {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .destaque h2 {
     margin-top: 15px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 .destaque p {
     width: 77%;
     text-align: center;
     font-size: 14px;
     margin: 30px auto;
-    color: #ffffff; 
+    color: #000000; 
 }
 .destaque figcaption {
     font-size: 13px;
@@ -211,7 +211,7 @@ body, ul {
     justify-content: center;
     display: flex;
     text-decoration: none;
-    color: #000000b4;
+    color: #000000;
     font-size: 18px;
     margin: 30px 0;
 }
@@ -219,7 +219,7 @@ body, ul {
 
 /* css novidades */
 .novidades {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .novidades .text-body {
     width: 80%;
@@ -246,7 +246,7 @@ body, ul {
 /* inicio css galeria */
 .galeria {
     margin: 0px auto 0px;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .galeria h2 {
     text-align: center;
@@ -269,7 +269,7 @@ body, ul {
 /* inicio css footer */
 .rodape {
     padding: 50px 50px 0;
-    background-color: #000000;
+    background-color: rgb(255, 255, 255);
 }
 .rodape .container #logo-rodape img {
     height: 50%;
@@ -281,11 +281,11 @@ body, ul {
 }
 .rodape .container #logo-rodape img:hover {
     transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.02);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .rodape .info-contato p {
     margin: 0px;
-    color: #ffffff;
+    color: #000000;
 }
 .rodape a {
     text-decoration: none;
@@ -308,12 +308,12 @@ body, ul {
 }
 .rodape .redes-sociais img:hover {
     transform: scale(1.5);
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .rodape p.direitos {
     text-align: center;
     margin-top: 40px;
-    color: #ffffff;
+    color: #000000;
 }
 /* inicio css streaming */
 .embed-container {
@@ -333,12 +333,12 @@ body, ul {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #181818;
 }
 .embed-container p {
     text-align: center;
     font-size: 24px;
-    color: #ffffff;
+    color: #181818;
 }
 .embed-container iframe {
     position: relative;
@@ -370,7 +370,7 @@ body, ul {
 .contato {
     margin-top: 0px;
     background: #000000;
-    color: #ffffff;
+    color: #0e52e4e5;
     padding-top: 35px;
 }
 .form_main {
